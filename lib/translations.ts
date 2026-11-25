@@ -1,38 +1,44 @@
 export const translations = {
   de: {
     // Navigation & Headers
-    header: "K&A Umzugsdienste",
+    header: "K&A Entrümpelung",
     home: "Startseite",
-    booking: "Buchung",
-    services: "Dienstleistungen",
+    booking: "Anfrage",
+    services: "Leistungen",
     about: "Über uns",
     contact: "Kontakt",
 
     // Hero Section
-    heroTitle: "Dein vertrauenswürdiger Umzugs- und Reinigungs­partner",
+    heroTitle: "K&A Entrümpelung – Ihr Entrümpler aus Weinstadt",
     heroDescription:
-      "Professionelle Dienstleistungen mit persönlichem Touch. Wir machen deinen Umzug stressfrei und einfach.",
-    bookNow: "Jetzt Buchen",
+      "Zuverlässig · Schnell · Diskret · Faire Festpreise. Wir kümmern uns um en, Entrümpelungen und fachgerechte Entsorgung – professionell und unkompliziert.",
+    bookNow: "Jetzt Anfrage stellen",
     learnMore: "Mehr erfahren",
 
     // Services
-    movingServices: "Umzugsdienste",
-    movingDescription: "Professioneller Umzug mit erfahrenem Team und moderner Ausrüstung",
-    cleaningServices: "Reinigungsdienste",
-    cleaningDescription: "Gründliche Reinigung vom alten zum neuen Ort",
-    packingServices: "Verpackungsdienste",
-    packingDescription: "Fachmännische Verpackung für sicheren Transport",
+    movingServices: "",
+    movingDescription:
+      "Professionelle en mit sorgfältiger Räumung und zuverlässiger Abwicklung.",
+    cleaningServices: "Besenrein- & Endreinigung",
+    cleaningDescription:
+      "Gründliche Reinigung nach der Entrümpelung – für eine saubere und übergabebereite Immobilie.",
+    packingServices: "Entrümpelung Entsorgung",
+    packingDescription:
+      "Fachgerechte Räumung und Entsorgung von Möbeln, Sperrmüll und nicht mehr benötigten Gegenständen.",
 
     // Features
-    expertTeam: "Expertenteam",
-    expertTeamDesc: "Geschulte Fachleute mit jahrelanger Erfahrung",
-    quickService: "Schneller Service",
-    quickServiceDesc: "Effiziente und pünktliche Servicebereitstellung",
-    qualityAssured: "Qualität Garantiert",
-    qualityAssuredDesc: "Zufriedenheit garantiert bei jedem Auftrag",
+    expertTeam: "Zuverlässig & Diskret",
+    expertTeamDesc:
+      "Wir arbeiten professionell, sorgfältig und respektvoll – auch bei sensiblen Haushalts- und Nachlassauflösungen.",
+    quickService: "Schnell & Termintreu",
+    quickServiceDesc:
+      "Effiziente Abläufe, flexible Terminvereinbarung und zuverlässige Durchführung.",
+    qualityAssured: "Faire Festpreise",
+    qualityAssuredDesc:
+      "Transparente Preisgestaltung und Festpreise – Besenreinheit und Entsorgung inklusive.",
 
     // Map Booking
-    mapBooking: "Interaktive Buchung mit Kartentool",
+    mapBooking: "Einsatzgebiet & Anfrage über Karte",
     advancedSettings: "Erweiterte Einstellungen",
     clearPoints: "Punkte löschen",
     lockMarkers: "Marker sperren",
@@ -42,102 +48,123 @@ export const translations = {
     update: "Aktualisieren",
     showPoints: "Standorte anzeigen",
     hidePoints: "Standorte verbergen",
-    pickupLocation: "Abholort wählen",
-    deliveryLocation: "Lieferort wählen",
+    pickupLocation: "Standort auswählen",
+    deliveryLocation: "Zielort auswählen",
     searchAddress: "Adresse suchen...",
     confirmLocation: "Ort bestätigen",
-    startAddress: "Startadresse",
-    endAddress: "Zieladresse",
-    getQuote: "Kostenschätzung erhalten",
+    startAddress: "Adresse / Einsatzort",
+    endAddress: "Weitere Adresse",
+    getQuote: "Festpreisangebot erhalten",
     distance: "Entfernung",
     estimatedPrice: "Geschätzter Preis",
-    bookService: "Service buchen",
+    bookService: "Entrümpelung anfragen",
 
     // Testimonials
     whatCustomersSay: "Was unsere Kunden sagen",
-    testimonial1: "Ausgezeichneter Service! Das Team war professionell und kümmerte sich großartig um unsere Sachen.",
-    testimonial2: "Sehr effizienter Umzugsprozess. Ich empfehle K&A Entrümpelung sehr weiter!",
-    testimonial3: "Der Reinigungsservice war gründlich und der Preis sehr fair.",
+    testimonial1:
+      "Zuverlässiger und professioneller Service bei der Entrümpelung.",
+    testimonial2:
+      "Schnelle Abwicklung und transparente Preise. Sehr empfehlenswert!",
+    testimonial3:
+      "Die Immobilie wurde sauber und besenrein übergeben.",
 
     // CTA
-    readyToMove: "Bereit umzuziehen?",
-    startBooking: "Starte deine Buchung heute und erlebe professionellen Service",
-    bookYourService: "Buche deinen Service",
+    readyToMove: "Sie benötigen eine Entrümpelung?",
+    startBooking:
+      "Kontaktieren Sie uns jetzt für ein unverbindliches Angebot und eine unkomplizierte Terminvereinbarung.",
+    bookYourService: "Jetzt Angebot anfragen",
 
     // Footer
-    footer: "© 2025 K&A Entrümpelung. Alle Rechte vorbehalten.",
+    footer:
+      "© 2026 K&A Entrümpelung. Alle Rechte vorbehalten.",
   },
+
   en: {
     // Navigation & Headers
-    header: "K&A Moving Services",
+    header: "K&A Clearance Services",
     home: "Home",
-    booking: "Booking",
+    booking: "Request",
     services: "Services",
-    about: "About",
+    about: "About Us",
     contact: "Contact",
 
     // Hero Section
-    heroTitle: "Your Trusted Moving & Cleaning Partner",
-    heroDescription: "Professional services with a personal touch. We make your move seamless and stress-free.",
-    bookNow: "Book Now",
+    heroTitle: "K&A Clearance – Your Local Clearance Team in Weinstadt",
+    heroDescription:
+      "Reliable · Fast · Discreet · Fair Fixed Prices. We handle house clearances, property clear-outs, waste disposal, and cleaning professionally and hassle-free.",
+    bookNow: "Request a Quote",
     learnMore: "Learn More",
 
     // Services
-    movingServices: "Moving Services",
-    movingDescription: "Professional moving with experienced team and modern equipment",
-    cleaningServices: "Cleaning Services",
-    cleaningDescription: "Thorough cleaning from your current to new space",
-    packingServices: "Packing Services",
-    packingDescription: "Expert packing to ensure safe transport of belongings",
+    movingServices: "House Clearances",
+    movingDescription:
+      "Professional house clearances with careful removal and reliable service.",
+    cleaningServices: "Final & Sweep-Cleaning",
+    cleaningDescription:
+      "Thorough cleaning after clearance, leaving your property clean and ready for handover.",
+    packingServices: "Clearance & Disposal",
+    packingDescription:
+      "Professional removal and disposal of furniture, bulky waste, and unwanted items.",
 
     // Features
-    expertTeam: "Expert Team",
-    expertTeamDesc: "Trained professionals with years of experience",
-    quickService: "Quick Service",
-    quickServiceDesc: "Efficient and punctual service delivery",
-    qualityAssured: "Quality Assured",
-    qualityAssuredDesc: "Satisfaction guaranteed on every job",
+    expertTeam: "Reliable & Discreet",
+    expertTeamDesc:
+      "Professional, careful, and respectful service, including sensitive estate clearances.",
+    quickService: "Fast & On Time",
+    quickServiceDesc:
+      "Efficient processes, flexible appointments, and dependable service.",
+    qualityAssured: "Fair Fixed Prices",
+    qualityAssuredDesc:
+      "Transparent pricing with fixed quotes, including disposal and sweep-cleaning.",
 
     // Map Booking
-    mapBooking: "Interactive Booking with Map",
-    advancedSettings: "Advanced settings",
-    clearPoints: "Clear points",
-    lockMarkers: "Lock markers",
-    showCoords: "Show coordinates",
+    mapBooking: "Service Area & Location Request",
+    advancedSettings: "Advanced Settings",
+    clearPoints: "Clear Points",
+    lockMarkers: "Lock Markers",
+    showCoords: "Show Coordinates",
     lat: "Latitude (lat)",
     lng: "Longitude (lng)",
     update: "Update",
-    showPoints: "Show service points",
-    hidePoints: "Hide service points",
-    pickupLocation: "Choose Pickup Location",
-    deliveryLocation: "Choose Delivery Location",
+    showPoints: "Show Locations",
+    hidePoints: "Hide Locations",
+    pickupLocation: "Select Location",
+    deliveryLocation: "Select Destination",
     searchAddress: "Search address...",
     confirmLocation: "Confirm Location",
-    startAddress: "Start Address",
-    endAddress: "Destination Address",
-    getQuote: "Get Quote",
+    startAddress: "Service Address",
+    endAddress: "Additional Address",
+    getQuote: "Get a Fixed-Price Quote",
     distance: "Distance",
     estimatedPrice: "Estimated Price",
-    bookService: "Book Service",
+    bookService: "Request Clearance",
 
     // Testimonials
-    whatCustomersSay: "What Customers Say",
-    testimonial1: "Excellent service! The team was professional and took great care of our belongings.",
-    testimonial2: "Very efficient moving process. Highly recommend K&A Moving Services!",
-    testimonial3: "The cleaning service was thorough and the price was very fair.",
+    whatCustomersSay: "What Our Customers Say",
+    testimonial1:
+      "Reliable and professional clearance service.",
+    testimonial2:
+      "Fast service and transparent pricing. Highly recommended!",
+    testimonial3:
+      "The property was left clean and ready for handover.",
 
     // CTA
-    readyToMove: "Ready to Move?",
-    startBooking: "Start your booking today and experience professional service",
-    bookYourService: "Book Your Service",
+    readyToMove: "Need a Property Clearance?",
+    startBooking:
+      "Contact us today for a free quote and an easy appointment booking process.",
+    bookYourService: "Request Your Quote",
 
     // Footer
-    footer: "© 2025 K&A Moving Services. All rights reserved.",
+    footer:
+      "© 2026 K&A Clearance Services. All rights reserved.",
   },
 }
 
 export type Language = "de" | "en"
 
-export function getTranslation(key: keyof (typeof translations)["de"], lang: Language = "de") {
+export function getTranslation(
+  key: keyof (typeof translations)["de"],
+  lang: Language = "de"
+) {
   return translations[lang]?.[key] || translations.de[key]
 }
