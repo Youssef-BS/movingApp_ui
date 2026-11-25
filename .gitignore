@@ -1,6 +1,27 @@
+# Dependencies
 node_modules/
+
+# Next.js build output
 .next/
 out/
 dist/
+build/
+
+# Local environment files (keep the example file trackable)
 .env*
 !.env.example
+
+# Vercel deployment output
+.vercel/
+
+# Logs and test coverage
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+coverage/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Operating system files
+.DS_Store
