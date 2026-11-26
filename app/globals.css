@@ -54,3 +54,5 @@ html.motion-ready .motion-item:not(.motion-in){opacity:0;transform:translateY(22
 @media(prefers-reduced-motion:reduce){.timeline-section:after,.timeline-marker{animation:none}.timeline-step:not(:last-child):after{transform:none}}
 
 .whatsapp-float{animation:wa-enter .55s cubic-bezier(.2,.8,.2,1) both}.whatsapp-float:before{content:"";position:absolute;inset:-5px;border:2px solid #25d366;border-radius:50%;opacity:0;animation:wa-ring 3.2s ease-out 1.2s infinite;pointer-events:none}.whatsapp-float svg{position:relative;z-index:1;transition:transform .22s ease}.whatsapp-float:hover svg{transform:rotate(-8deg) scale(1.08)}@keyframes wa-enter{from{opacity:0;transform:translateY(14px) scale(.84)}to{opacity:1;transform:translateY(0) scale(1)}}@keyframes wa-ring{0%{transform:scale(.86);opacity:.55}85%,100%{transform:scale(1.55);opacity:0}}@media(prefers-reduced-motion:reduce){.whatsapp-float,.whatsapp-float:before{animation:none}}
+.brand-logo{display:block;width:174px;height:auto}.brand-light{background:#fff;padding:6px 10px;border-radius:11px;width:max-content}
+@media(max-width:560px){.brand-logo{width:154px}}

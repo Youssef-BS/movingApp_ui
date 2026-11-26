@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88" role="img" aria-labelledby="title">
+  <title id="title">K&amp;A Entrümpelung</title>
+  <rect x="6" y="6" width="76" height="76" rx="19" fill="#ffca22"/>
+  <path d="M21 42 44 24l23 18v25H21V42Z" fill="none" stroke="#092f57" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M35 67V51h18v16M29 43c1-8 8-14 16-14 6 0 11 3 14 8" fill="none" stroke="#092f57" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m55 31 4 6-7 1" fill="none" stroke="#092f57" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

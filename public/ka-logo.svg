@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 88" role="img" aria-labelledby="title desc">
+  <title id="title">K&amp;A Entrümpelung</title>
+  <desc id="desc">K&amp;A Entrümpelung logo with a house and circular arrow mark</desc>
+  <rect x="5" y="6" width="76" height="76" rx="19" fill="#ffca22"/>
+  <path d="M20 42 43 24l23 18v25H20V42Z" fill="none" stroke="#092f57" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M34 67V51h18v16M28 43c1-8 8-14 16-14 6 0 11 3 14 8" fill="none" stroke="#092f57" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m54 31 4 6-7 1" fill="none" stroke="#092f57" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="100" y="48" fill="#092f57" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="800" letter-spacing="-1.8">K&amp;A</text>
+  <text x="102" y="69" fill="#b78300" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="800" letter-spacing="3.1">ENTRÜMPELUNG</text>
+</svg>
