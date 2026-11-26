@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { ArrowDown, ArrowRight, BadgeCheck, Brush, Check, Clock3, House, Menu, MessageCircle, Phone, Recycle, ShieldCheck, Sparkles, Truck, X } from "lucide-react"
 
 type Lang = "de" | "en"
@@ -14,6 +14,16 @@ const services = [{icon:House,title:"s1",desc:"d1"},{icon:Truck,title:"s2",desc:
 
 export default function HomePage() {
  const [lang,setLang]=useState<Lang>("de"), [open,setOpen]=useState(false); const t=copy[lang]
+ useEffect(()=>{
+  const items=Array.from(document.querySelectorAll<HTMLElement>(".service-card, .process-image, .process-copy, .area-inner > div, .contact-card, .contact-aside"))
+  if(window.matchMedia("(prefers-reduced-motion: reduce)").matches || !("IntersectionObserver" in window)) return
+  document.documentElement.classList.add("motion-ready")
+  const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{
+   if(entry.isIntersecting){entry.target.classList.add("motion-in");observer.unobserve(entry.target)}
+  }),{threshold:.14,rootMargin:"0px 0px -36px 0px"})
+  items.forEach((item,index)=>{item.classList.add("motion-item");item.style.setProperty("--motion-delay",`${Math.min(index%6,4)*75}ms`);observer.observe(item)})
+  return ()=>{observer.disconnect();document.documentElement.classList.remove("motion-ready")}
+ },[])
  const jump=(id:string)=>{document.getElementById(id)?.scrollIntoView({behavior:"smooth"});setOpen(false)}
  return <main className="ka-site">
   <header className="ka-header"><a className="brand" href="#top" aria-label="K&A Entrümpelung"><span className="brand-mark"><Recycle size={24}/></span><span><b>K&amp;A</b><small>ENTRÜMPELUNG</small></span></a><button className="mobile-toggle" onClick={()=>setOpen(!open)} aria-label={t.menu}>{open?<X/>:<Menu/>}</button><nav className={open?"nav-links nav-open":"nav-links"}><button onClick={()=>jump("leistungen")}>{t.nav1}</button><button onClick={()=>jump("ablauf")}>{t.nav2}</button><button onClick={()=>jump("gebiet")}>{t.nav3}</button><div className="lang-switch" aria-label={t.language}><button className={lang==="de"?"chosen":""} onClick={()=>setLang("de")}>DE</button><span>/</span><button className={lang==="en"?"chosen":""} onClick={()=>setLang("en")}>EN</button></div><a className="button button-yellow nav-cta" href={wa} target="_blank" rel="noreferrer">{t.cta}<ArrowRight size={16}/></a></nav></header>
