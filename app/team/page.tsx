@@ -92,10 +92,10 @@ export default function TeamPage() {
               <Phone className="text-primary" size={24} />
 
               <a
-                href="tel:+4917646533261"
+                href="tel:+491733271517"
                 className="font-semibold text-primary text-lg hover:underline"
               >
-                +49 176 46533261
+                +49 173 3271517
               </a>
             </div>
           </div>

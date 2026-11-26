@@ -32,11 +32,11 @@ export default function FloatingButtons() {
       </button>
 
       <a
-        href="https://wa.me/49017646533261?text=Hallo%2C%20ich%20interessiere%20mich%20f%C3%BCr%20eure%20Dienstleistungen"
+        href="https://wa.me/491733271517?text=Hallo%2C%20ich%20interessiere%20mich%20f%C3%BCr%20eure%20Dienstleistungen"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-40 flex items-center justify-center w-14 h-14 rounded-full bg-[#25D366] text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 hover:bg-[#1fbb53]"
-        aria-label="Contact us on WhatsApp"
+        aria-label="Contact K&A on WhatsApp"
       >
         <svg
   className="w-7 h-7"
@@ -51,3 +51,4 @@ export default function FloatingButtons() {
     </>
   )
 }
+

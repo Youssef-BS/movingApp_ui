@@ -7,11 +7,11 @@ export default function Footer() {
   const translations = {
     company: "K&A Entrümpelung",
     description:
-      "Zuverlässige und professionelle Entrümpelungen, en und Entsorgungsdienste.",
+      "Zuverlässige und professionelle Entrümpelungen, en und Sperrmüll & Räumungsdienste.",
     services: "Unsere Dienstleistungen",
     moving: "Entrümpelung",
     cleaning: "",
-    packing: "Entsorgung",
+    packing: "Sperrmüll & Räumung",
     aboutCompany: "Unternehmen",
     about: "Über uns",
     team: "Unser Team",
@@ -57,7 +57,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/services/packing"
+                  href="/services/moving"
                   className="hover:text-white transition duration-300"
                 >
                   {t.packing}
@@ -109,8 +109,8 @@ export default function Footer() {
             <ul className="space-y-3 text-slate-300">
               <li className="flex items-center gap-2 hover:text-white transition duration-300">
                 <Phone size={16} />
-                <a href="tel:+4917646533261">
-                  +49 176 46533261
+                <a href="tel:+491733271517">
+                  +49 173 3271517
                 </a>
               </li>
 
